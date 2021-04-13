@@ -30,7 +30,7 @@ snowStorm.usePositionFixed = true; //if the user scrolls, the snow is not affect
 <body>
     <header>
         <h3>FileUpload</h3>
-        <p>A Project of <b>Blue team</b></p>
+        <p>A Project of <b>AdYou Cloud</b></p>
 
     </header>
     
@@ -51,9 +51,9 @@ snowStorm.usePositionFixed = true; //if the user scrolls, the snow is not affect
                 <option value="dark">Dark theme </option>
             </select>
     <footer>
-        &copy; Blue Team 2021 | A Hacking discord server
+        &copy; ACS 2021 | File Uploading system
         <br>
-        <p>A Project of Blue team</p>
+        <p>An open saurce project</p>
     </footer>
     
     <script>
