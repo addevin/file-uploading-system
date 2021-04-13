@@ -1,0 +1,104 @@
+.danger{
+    color:white;
+    background-color: rgb(250, 84, 54);
+    padding: 6px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.success{
+    color:white;
+    background-color: rgb(0, 206, 103);
+    padding: 6px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+body{
+    background-color: rgb(232, 248, 255);
+    text-align: center;
+    padding-top: 10vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(78, 78, 78);
+}
+a{
+    color: blueviolet;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgb(240, 240, 240);
+}
+a:hover{
+    color: violet;
+    box-shadow: 0 0 5px rgb(201, 201, 201);
+}
+h2{
+    color: rgb(63, 63, 63);
+}
+.directory{
+    background: rgb(39, 39, 39);
+    padding: 10px 0px 20px 0px;
+}
+.directory form{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(107, 107, 107);
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.directory form button{
+    background-color: rgb(255, 255, 255);
+    color: blueviolet;
+    border: 1px solid gray;
+    outline: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.directory form input{
+    display: none;
+   
+}
+.directory form span{
+    color: white;
+    font-weight: 600;
+}
+
+#fileform{
+    margin-top: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+
+}
+
+button{
+    padding: 13px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    border: 0;
+    background-color: white;
+    color: tomato;
+
+}
+
+#servr-mssg{
+    color: violet;
+}
+#servr-mssg input{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 300px;
+    margin-bottom: 20px;
+}
+#servr-mssg a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}

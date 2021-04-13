@@ -1,0 +1,92 @@
+.danger{
+    color:white;
+    background-color: rgb(250, 84, 54);
+    padding: 6px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.success{
+    color:white;
+    background-color: rgb(0, 206, 103);
+    padding: 6px;
+    margin: 10px;
+    border-radius: 3px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+
+}
+button{
+    padding: 13px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    border: 0;
+    background-color: white;
+    color: tomato;
+
+}
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    
+}
+
+#servr-mssg{
+    color: violet;
+}
+#servr-mssg input{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 300px;
+    margin-bottom: 20px;
+}
+#servr-mssg a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#theme-selector{
+    position: fixed;
+    z-index: 0;
+    right: 0;
+    bottom: 100px;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header{
+    width:100%;
+    background-color: rgb(219, 186, 250);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 0 10vh 0;
+    padding: 1px;
+    color: rgb(75, 75, 75);
+}
+header p{
+    font-size: 12px;
+}
+footer{
+    background-color: rgb(29, 29, 29);
+    position: fixed;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: blanchedalmond;
+    font-size: 12px;
+    padding: 5px;
+}
